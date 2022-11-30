@@ -15,16 +15,16 @@ import React, { Component } from 'react'
 import {QrReader} from "react-qr-reader";
 
 class App extends Component {
-    render() {
-        return (
-            <div>
-                <QrReader
-                    delay={1000}
-                    style={{ width: '100%' }}
-                />
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <QrReader
+          delay={1000}
+          style={{ width: '100%' }}
+        />
+      </div>
+    )
+  }
 }
 export default App;
 ```
