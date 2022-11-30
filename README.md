@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div>
         <QrReader
-          delay={1000}
+          delay={200}
           style={{ width: '100%' }}
         />
       </div>
